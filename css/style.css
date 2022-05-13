@@ -10,6 +10,13 @@ a {
     text-decoration: none;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+
 .header-bg {
     background-color: #000;
 }
@@ -52,6 +59,42 @@ a {
 .header-menu a:hover::after{
     width: 100%;
 }
+
+
+.introducao-bg{
+    background: #000;
+    color: #fff;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 2rem;
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.introducao-conteudo{
+    align-self: flex-end;
+    padding-bottom: 80px;
+}
+
+.introducao-conteudo h1 {
+    font-size: 4rem;
+    color: #fff;
+    line-height: 1.12;
+    margin-bottom: 2rem;
+}
+
+.introducao-conteudo p {
+    font-size: 1.4rem;
+    color: #b2b2b2;
+    margin-bottom: 1rem;
+}
+
+
+
 
 @media (max-width: 800px) {
     .header-menu {
