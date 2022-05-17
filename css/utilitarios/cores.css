@@ -1,0 +1,26 @@
+:root {
+    --cor-pri-dark-4: #000;
+    --cor-pri-dark-3: #111;
+    --cor-pri-dark-2: #2e2e2e;
+    --cor-pri-dark-1: #404040;
+
+    --cor-pri-medio-4: #595959;
+    --cor-pri-medio-3: #717171;
+    --cor-pri-medio-2: #9c9c9c;
+    --cor-pri-medio-1: #b2b2b2;
+
+    --cor-pri-light-5: #ccc;
+    --cor-pri-light-4: #dedede;
+    --cor-pri-light-2: #ededed;
+    --cor-pri-light-1: #f7f7f7;
+    --cor-pri-light-0: #fff;
+
+
+    --cor-sec-dark-3: #332200;
+    --cor-sec-dark-2: #664400;
+    --cor-sec-dark-1: #a66f00;
+
+    --cor-sec-medio-1: #e4a30b;
+
+    --cor-sec-light-1: #ffbb00;
+}

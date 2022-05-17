@@ -1,0 +1,46 @@
+.bicicletas-lista{
+    padding: 4rem 1rem;
+    margin:  0 auto;
+    max-width: 1600px;
+}
+
+.bicicletas-lista h2 {
+    color: var(--cor-pri-dark-3);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.catalogo-bicicletas{
+    display: flex;
+    gap: 40px;
+}
+
+.catalogo-bicicletas a {
+    display: block;
+}
+
+.catalogo-bicicletas h3 {
+    color: var(--cor-pri-dark-3);
+    font-weight: bold;
+    display: flex;
+    align-items: flex-start;
+}
+
+.catalogo-bicicletas h3::before {
+    content: "";
+    display: inline-block;
+    height: 2.5rem;
+    width: 0.5rem;
+    margin-right: 0.6rem ;
+    background-color: var(--cor-sec-light-1);
+}
+
+.catalogo-bicicletas img{
+    margin-bottom: 1rem;
+}
+
+.catalogo-bicicletas li span {
+    color: var(--cor-pri-dark-3);
+    padding-left: 1.6rem;
+}

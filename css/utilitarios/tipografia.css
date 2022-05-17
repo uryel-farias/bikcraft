@@ -1,0 +1,97 @@
+.fonte-g1 {
+font-size: 4rem;
+font-weight: 400;
+}
+.fonte-g1-bold {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.fonte-g2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.fonte-g2-bold {
+    font-size: 2.5rem;
+    font-weight: 600rem;
+}
+
+.fonte-texto-g {
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+.fonte-texto-m {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.fonte-texto-p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.fonte-texto-pp {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+@media (max-width:1200px){
+    .fonte-g1 {
+        font-size: 3rem;
+        }
+        .fonte-g1-bold {
+            font-size: 3rem;
+        }
+        
+        .fonte-g2 {
+            font-size: 2rem;
+        }
+        
+        .fonte-g2-bold {
+            font-size: 2 rem;
+        }
+        
+        .fonte-texto-g {
+            font-size: 1.8rem;
+        }
+        .fonte-texto-m {
+            font-size: 1.6rem;
+        }
+        .fonte-texto-p {
+            font-size: 1.2rem;
+        }
+        .fonte-texto-pp {
+            font-size: 0.8rem;
+        }
+        
+}
+
+@media (max-width: 800px){
+    .fonte-g1 {
+        font-size: 2.5rem;
+        }
+        .fonte-g1-bold {
+            font-size: 2.5rem;
+        }
+        
+        .fonte-g2 {
+            font-size: 2rem;
+        }
+        
+        .fonte-g2-bold {
+            font-size: 2rem;
+        }
+        
+        .fonte-texto-g {
+            font-size: 1.5rem;
+        }
+        .fonte-texto-m {
+            font-size: 1.3rem;
+        }
+        .fonte-texto-p {
+            font-size: 1.1rem;
+        }
+        .fonte-texto-pp {
+            font-size: 0.8rem;
+        }
+        
+}
