@@ -13,7 +13,15 @@
 
 .catalogo-bicicletas{
     display: flex;
+    overflow-x: auto;
+
     gap: 40px;
+}
+
+.catalogo-bicicletas li {
+    flex: 1;
+    min-width: 250px;
+    padding-bottom: 1rem;
 }
 
 .catalogo-bicicletas a {
@@ -34,7 +42,13 @@
     width: 0.5rem;
     margin-right: 0.6rem ;
     background-color: var(--cor-sec-light-1);
+    transition: width 0.2s;
 }
+
+.catalogo-bicicletas a:hover h3::before {
+    width: 1rem;
+
+} 
 
 .catalogo-bicicletas img{
     margin-bottom: 1rem;
@@ -43,4 +57,10 @@
 .catalogo-bicicletas li span {
     color: var(--cor-pri-dark-3);
     padding-left: 1.6rem;
+}
+
+@media (max-width: 800px) {
+    .catalogo-bicicletas{
+        gap: 20px;
+    }
 }
