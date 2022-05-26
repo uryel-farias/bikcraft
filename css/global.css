@@ -1,4 +1,4 @@
-body, ul, li, p, h1, h2, h3 {
+body, ul, li, p, h1, h2, h3, blockquote {
     margin: 0px;
     padding: 0px;
     list-style: none;
