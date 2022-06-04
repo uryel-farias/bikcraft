@@ -6,7 +6,13 @@
 @import "./utilitarios/componentes.css";
 @import "./utilitarios/cores.css";
 @import "./utilitarios/tipografia.css";
-@import "./bicicletas/bicicletas-lista.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimento.css";
+
+
+/*Bicicletas*/
+@import "./bicicletas/bicicletas-lista.css";
+
+/*Seguros*/
+@import "./seguros/seguros.css";

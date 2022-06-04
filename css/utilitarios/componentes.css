@@ -13,6 +13,15 @@
     background: linear-gradient(var(--cor-sec-light-1), var(--cor-sec-dark-1));
 }
 
+.botao.secundario {
+    background: var(--cor-pri-dark-2);
+    color: var(--cor-pri-light-1);
+}
+
+.botao.secundario:hover{
+    background: var(--cor-pri-dark-1);
+}
+
 @media (max-width: 1200px) {
     .botao {
         font-size: 1.4rem;
