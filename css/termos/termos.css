@@ -1,0 +1,32 @@
+.titulo h1{
+    color: var(--cor-pri-light-0);
+}
+
+
+
+.termos {
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 2rem;
+    padding: 6rem 1rem;
+    margin: 0 auto;
+}
+
+.termos h2{
+    font-weight: bold;
+    grid-column: 1;
+}
+
+.termos p {
+    grid-column: 1;
+}
+
+@media (max-width:800px){
+    .termos {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 4rem 1rem;
+    }
+}
+
