@@ -25,6 +25,10 @@
 @import "./seguros/vantagens.css";
 @import "./seguros/perguntas.css";
 
+/*Contato*/
+@import "./";
+
+
 /*Termos de uso*/
 @import "./termos/termos.css";
 
