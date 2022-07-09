@@ -86,3 +86,9 @@
     }
 
 }
+
+@media (max-width: 374px) {
+    .header-menu li:last-child{
+        margin-top: 1rem;
+    }
+}

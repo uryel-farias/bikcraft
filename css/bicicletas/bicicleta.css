@@ -55,6 +55,9 @@
 
 }
 
+.bicicleta-comprar span img {
+    padding-right: 1rem;
+}
 .bicicletas-individual-conteudo h2 {
     text-transform: uppercase;
     letter-spacing: 0.5rem;
@@ -117,14 +120,18 @@ border-bottom: none;
     color: var(--cor-pri-light-5);
 }
 
-@media (max-width: 950px){
+@media (max-width:1000px){
     .bicicleta-comprar {
         grid-template-columns: 1fr;
     }
 
+}
+
+@media (max-width: 950px){
     .bicicleta-comprar a {
         margin-bottom: 1rem;
     }
+
 }
 
 @media (max-width: 800px){
