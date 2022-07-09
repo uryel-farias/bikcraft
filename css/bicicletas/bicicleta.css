@@ -1,0 +1,158 @@
+.titulo-bg {
+    background-color: var(--cor-pri-dark-3);
+}
+
+.bicicleta-pagina {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 2rem;
+    padding: 3rem 0;
+}
+
+.bicicletas-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+
+}
+
+.bicicletas-imagens img {
+    flex: 1;
+    min-width: 200px;
+}
+
+.bicicletas-imagens img:first-child {
+    min-width: 100%;
+}
+
+.bicicletas-individual-conteudo p{
+    color: var(--cor-pri-medio-1);
+    margin-bottom: 1rem;
+}
+
+.bicicleta-comprar {
+    display: grid;
+    grid-template-columns: max-content auto;
+    align-items: center;
+    justify-items: start;
+    gap: 8px 12px;
+}
+
+.bicicleta-comprar a {
+    grid-row: span 2;
+}
+
+.bicicleta-comprar span {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-pri-dark-4);
+    color: var(--cor-pri-medio-1);
+    border-radius: 4px;
+    padding: 0 8px;
+
+}
+
+.bicicletas-individual-conteudo h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: var(--cor-pri-light-0);
+    padding-top: 2rem;
+    margin-bottom: .4rem;
+}
+
+.bicicletas-individual-informacoes, .bicicletas-individual-ficha {
+    background-color: var(--cor-pri-dark-4);
+    padding: 2rem 1rem;
+    border-radius: 4px;
+}
+.bicicletas-individual-informacoes img {
+    width: 32px;
+    height: 32px;
+}
+
+.bicicletas-individual-informacoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.bicicletas-individual-informacoes h3 {
+    color: var(--cor-pri-light-0);
+}
+
+.bicicletas-individual-informacoes p {
+    padding: 0;
+    margin: 0;
+}
+
+.bicicletas-individual-informacoes li {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+}
+
+
+.bicicletas-individual-ficha li {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .4rem;
+    padding-top: .4rem;
+    border-bottom: 1px solid white;
+    
+}
+
+.bicicletas-individual-ficha li:last-child {
+border-bottom: none;
+}
+
+.bicicletas-individual-ficha li{
+    color: var(--cor-pri-light-0);
+}
+
+.bicicletas-individual-ficha span{
+    color: var(--cor-pri-light-5);
+}
+
+@media (max-width: 950px){
+    .bicicleta-comprar {
+        grid-template-columns: 1fr;
+    }
+
+    .bicicleta-comprar a {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 800px){
+    .bicicleta-pagina{
+        grid-template-columns: 1fr;
+    }
+
+    .titulo p{
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+
+    .titulo h1{
+        padding-top: 0;
+    }
+
+    .bicicleta-pagina {
+        padding-top: 1rem;
+    }
+
+    .bicicletas-imagens {
+        grid-row: 2;
+    }
+
+}
+
+@media (max-width:500px){
+    .bicicletas-individual-informacoes{
+        grid-template-columns: 1fr;
+    }
+}
