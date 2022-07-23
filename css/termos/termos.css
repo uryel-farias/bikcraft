@@ -20,6 +20,7 @@
 
 .termos p {
     grid-column: 1;
+    color: var(--cor-pri-dark-4);
 }
 
 @media (max-width:800px){
